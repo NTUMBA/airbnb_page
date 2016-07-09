@@ -4,23 +4,46 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-ul{
+
+nav ul{
   font-size: 18px;
-  color: #fff;
+}
+
+.hote{
+  border: 3px solid #fff;
+  border-radius: 5%;
+  padding: 0 8px;
+  color:#fff;
+  font-weight: bold;
 }
 main{
   Width:70%;
-  margin0 auto;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #fff;
 }
-.hote{
-  border: 3px ssolid #fff;
-  color:#fff;
+.invitation{
+  margin-top: 10%;
+  text-align: center;
 }
+.slogan{
+  font-family: Lucida,Arial,sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
 
 
 @media(min-width:769px){
 .wrapper{
   min-height:100vh;
+}
+.navbar li{
+  margin: 15px 4px 0 0;
+}
+.navbar-brand a{
+  margin-top: 15px;
+  display: inline;
 }
 
 }
