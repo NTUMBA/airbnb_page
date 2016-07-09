@@ -1,0 +1,26 @@
+
+body{
+  background-image: url("http://thumbs.dreamstime.com/x/cr%C3%A9puscule-26407240.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  font-size: 18px;
+  color: #fff;
+}
+main{
+  Width:70%;
+  margin0 auto;
+}
+.hote{
+  border: 3px ssolid #fff;
+  color:#fff;
+}
+
+
+@media(min-width:769px){
+.wrapper{
+  min-height:100vh;
+}
+
+}
