@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
  </head>
  <body>
-   <div class="wrapper">
+   <div class="wrap">
      <header>
     <!--nav bar starts=========================================================  -->
     <nav class="navbar navbar-dark">
@@ -38,19 +38,39 @@
 </header>
 <!-- header end main begin==================================================== -->
 <main class="invitation">
-<h1 class="slogan">VIVEZ L&Agrave;-BAS</h1>
-<h5>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</h5>
+  <h1 class="slogan">VIVEZ L&Agrave;-BAS</h1> <!--special character-->
+  <h5>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</h5>
 
 </main>
 <!--main end footer begin======================================================  -->
 <footer>
+  <!-- Secondary, outline button -->
+<button type="button" class="btn btn-secondary">Où</button>
 
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-secondary">Arrivée</button>
+    <!-- flèche=================================================================== -->
+    <button type="button" class="btn btn-secondary">Départ</button>
+
+    <div class="btn-group" role="group">
+      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        1 voyageur
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="#">Dropdown link</a>
+        <a class="dropdown-item" href="#">Dropdown link</a>
+      </div>
+    </div>
+
+    <span class="search">Recherche</span>
+  </div>
+</div>  
 </footer>
   <!-- jQuery first,==============================================================-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!--   then Bootstrap JS. =======================================================-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-</div>
+
 <!-- wrap End here===============================================================-->
  </body>
 </html>

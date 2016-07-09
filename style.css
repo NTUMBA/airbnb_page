@@ -32,12 +32,23 @@ main{
   font-weight: bold;
 }
 
+.search{
+  background-color:tomato;
+  color:#fff;
+  font-weight: bolder;
+}
+footer{
+  width: 100%;
 
-
+}
 @media(min-width:769px){
-.wrapper{
+.wrap{
   min-height:100vh;
 }
+
+}
+
+@media(min-width:769px){
 .navbar li{
   margin: 15px 4px 0 0;
 }
