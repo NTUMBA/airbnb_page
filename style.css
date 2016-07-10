@@ -31,7 +31,10 @@ main{
   font-size: 5rem;
   font-weight: bold;
 }
-
+.play{
+  border: 1px solid white;
+  border-radius: 100%;
+}
 .search{
   background-color:tomato;
   color:#fff;
@@ -39,14 +42,23 @@ main{
 }
 footer{
   width: 100%;
-
+}
+footer{
+  /*background-color: blue;*/
+  display: inline-block;
+  padding: 4px 20px
+}
+.row,.arrive,.depart{
+  margin-right: 0;
+}
+.reach{
+  color: tomato;
 }
 @media(min-width:769px){
 .wrap{
   min-height:100vh;
 }
 
-}
 
 @media(min-width:769px){
 .navbar li{
