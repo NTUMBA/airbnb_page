@@ -64,16 +64,14 @@ footer{
   display: inline-block;
   margin: 4px 20px
 }
-.row,.arrive,.depart{
-  margin-right: 0;
-}
-.reach{
-  color: tomato;
+.depart{
+  background-image: url("/home/mboma/site/lab/image_google/right-arrow.png" atl="arrow");
 }
 
 .row{
   margin: 5px 140px;
   font-size: 10%;
+  padding: 0;
 }
 .foot3first{
   margin-right: -10px;
