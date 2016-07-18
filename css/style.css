@@ -1,8 +1,9 @@
 
 body{
-  background-image: url("http://thumbs.dreamstime.com/x/cr%C3%A9puscule-26407240.jpg");
+  /*background-image: url("http://thumbs.dreamstime.com/x/cr%C3%A9puscule-26407240.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f3f3f3;
 }
  .navbar-brand img{
   width: 50%;
@@ -40,7 +41,7 @@ nav ul{
   border-radius: 100%;
 }
 #bgvid {
-   position: fixed;
+   position: absolute;
    right: 0;
    bottom: 0;
    min-width: 100%;
@@ -52,7 +53,10 @@ nav ul{
 
 }
 .gallery{
-  margin-top: 15%;
+  margin-top: 20%;
+}
+.container img{
+  justify-content: center;
 }
 .search{
   background-color:tomato;
