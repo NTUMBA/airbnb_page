@@ -48,19 +48,16 @@ nav ul{
    width: auto;
    height: auto;
    z-index: -100;
-   background-color:orange;
    background-size: cover;
+
+}
+.gallery{
+  margin-top: 15%;
 }
 .search{
   background-color:tomato;
   color:#fff;
   font-weight: bolder;
-}
-/*section starts================================================================*/
-.section{
-    width: 100%;
-    display: inline-block;
-    margin: 4px 20px
 }
 
 .depart{
