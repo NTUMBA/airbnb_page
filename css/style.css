@@ -56,9 +56,36 @@ ul li{
    background-size: cover;
 
 }
+
+/*section=======================================================================--*/
+.search{
+  background-color:tomato;
+  color:#fff;
+  font-weight: bolder;
+}
+
+.depart{
+  background-image: url("/home/mboma/site/lab/image_google/right-arrow.png" atl="arrow");
+}
+
+.row{
+    display: flex;
+    margin-left: 20%;
+  /*margin: 5px 140px;*/
+  /*font-size: 10%;*/
+}
+/*.sect3first{
+  margin-right: -10px;
+  text-align: center;
+}*/
+.where{
+  margin-right: -4px;
+}
+/*gallery=======================================================================*/
+
 .gallery{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 18%;
   width: 100%;
 }
 .gallery .img{
@@ -85,43 +112,21 @@ ul li{
 .city img .nederland{
   flex-grow: 2;
 }
-/*.4-img{
-  display: flex;
-  flex-wrap: wrap;
-}*/
-/*.4-img img{
-    flex-grow: 1;
-}*/
-.search{
-  background-color:tomato;
-  color:#fff;
-  font-weight: bolder;
-}
 
-.depart{
-  background-image: url("/home/mboma/site/lab/image_google/right-arrow.png" atl="arrow");
-}
 
-.row{
-  margin: 5px 140px;
-  font-size: 10%;
-  padding: 0;
-}
-/*.sect3first{
-  margin-right: -10px;
-  text-align: center;
-}*/
-.where{
-  margin-right: -4px;
-}
-}
+
 /*section end===================================================================*/
 /*footer=======================================================================*/
-/*footer{
-  display: inline-block;
-  margin: 4px 20px;
+footer{
+padding-top: 50px;
+color: white;
+font-weight: bold;
+background-color: dimgray;
     width: 100%;
-}*/
+}
+a:link{
+  color:white;
+}
 /*media queries=================================================================*/
 @media(min-width:769px){
 .wrap{
