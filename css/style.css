@@ -78,14 +78,17 @@ ul li{
   margin-right: -10px;
   text-align: center;
 }*/
-.where{
+/*.where{
   margin-right: -4px;
+}*/
+section .info{
+background-color: red;
 }
 /*gallery=======================================================================*/
 
 .gallery{
   text-align: center;
-  margin-top: 18%;
+  margin-top: 5%;
   width: 100%;
 }
 .gallery .img{
@@ -96,7 +99,7 @@ ul li{
   display: flex;
   flex-wrap: wrap;
   flex-basis: 200px;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .container img{
